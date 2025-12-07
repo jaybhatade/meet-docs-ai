@@ -1,0 +1,9 @@
+[2025-12-07 18:55:45] [ERROR] [test_logging_system] [demonstrate_logging] - This is an ERROR message - a serious problem occurred
+[2025-12-07 18:55:45] [CRITICAL] [test_logging_system] [demonstrate_logging] - This is a CRITICAL message - a very serious error
+[2025-12-07 18:55:45] [ERROR] [test_logging_system] [demonstrate_error_logging] - Mathematical error occurred: division by zero
+Traceback (most recent call last):
+  File "F:\hackathon\AWS Hackathon\KIRO_2\examples\test_logging_system.py", line 96, in demonstrate_error_logging
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero
+[2025-12-07 18:55:45] [ERROR] [test_logging_system] [demonstrate_error_logging] - File operation failed: [Errno 2] No such file or directory: 'nonexistent_file.txt'
